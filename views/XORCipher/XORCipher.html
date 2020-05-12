@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOR Cipher Algorithm</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>XOR Cipher</h1>
+    <div class="container">
+        <h2>XOR Encyption</h2>
+        <form id="encrypt">
+            <div class="form-group">
+                <label for="input">Enter Input String: </label>
+                <input type="text" name="input" id="encrypt-input" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="key">Enter Key: </label>
+                <input type="text" name="key" id="encrypt-key" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="output">Out Encrypted String: </label>
+                <textarea id="encrypt-output" class="form-control" rows="3" readonly></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="encrypt-submit" class="submit-btn" name="submit">
+                <input type="button" id="encrypt-reset" class="reset-btn" name="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <h2>XOR Decryption</h2>
+        <form id="decrypt">
+            <div class="form-group">
+                <label for="input">Enter Input String: </label>
+                <input type="text" name="input" id="decrypt-input" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="key">Enter Key: </label>
+                <input type="text" name="key" id="decrypt-key" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="output">Out Decrypted String:: </label>
+                <textarea id="decrypt-output" class="form-control" rows="3" readonly></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="decrypt-submit" class="submit-btn" name="submit" />
+                <input type="button" id="decrypt-reset" class="reset-btn" name="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="../BinaryConverter/js/coverter.js"></script>
+<script src="./js/xor.js"></script>
+</html>

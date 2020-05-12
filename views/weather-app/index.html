@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js" integrity="sha256-nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js" integrity="sha256-bd8XIKzrtyJ1O5Sh3Xp3GiuMIzWC42ZekvrMMD4GxRg=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Weather App</h1>
+        <label for="city">Enter City Name: </label>
+        <input type="text" name="city" id="city" placeholder="Enter City Name">
+        <div class="canvas-container">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+        <div class="canvas-container">    
+            <canvas id="myChartLine" width="400" height="400"></canvas>
+        </div>
+        <div class="canvas-container">    
+            <canvas id="myChartPie" width="400" height="400"></canvas>
+        </div>           
+        
+        
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>

@@ -1,0 +1,25 @@
+body {
+    padding: 200px 200px 0 500px;
+}
+
+.container {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.cell {
+    width: 100px;
+    height: 50px;
+    line-height: 2.5em;
+}
+
+.reset-btn {
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    background-color: cadetblue;
+    font-size: 16px;
+}

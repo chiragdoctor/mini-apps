@@ -1,0 +1,32 @@
+{
+  "name": "mini-apps",
+  "version": "1.0.0",
+  "description": "This mini-app consist of small apps which are hosted using NodeJS and Express server on Heroku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragdoctor/mini-apps.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "express",
+    "heroku"
+  ],
+  "author": "Chirag Doctor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragdoctor/mini-apps/issues"
+  },
+  "homepage": "https://github.com/chiragdoctor/mini-apps#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
