@@ -1,0 +1,57 @@
+body {
+    margin: 150px auto 0 600px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 1.5em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hide {
+    background-color: white;
+}
+
+.marked {
+    width: 50px;
+    height: 50px;
+    line-height: 2.0em;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    background-image: url('../images/Minesweeper_flag.png');
+    background-repeat: no-repeat;
+}
+
+.darkCell {
+    width: 50px;
+    height: 50px;
+    line-height: 3.5em;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgray;
+    font-weight: bolder;
+}
+
+.bomb {
+    background-image: url('../images/minesweeper-bomb.jpg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.reset-btn {
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    background-color: cadetblue;
+    font-size: 16px;
+}

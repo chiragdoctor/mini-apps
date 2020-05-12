@@ -23,6 +23,9 @@
     "url": "https://github.com/chiragdoctor/mini-apps/issues"
   },
   "homepage": "https://github.com/chiragdoctor/mini-apps#readme",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
